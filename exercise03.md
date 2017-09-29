@@ -36,3 +36,5 @@ plt.ylim(0,11)
 plt.legend()
 plt.show()
 ```
+# Here is the image
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/image.png)
