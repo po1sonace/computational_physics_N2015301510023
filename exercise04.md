@@ -1,5 +1,5 @@
 a## 作业2.6
-### 利用Euler method计算本题极为有效,运用迭代的方法对_v_ _t_进行计算
+### 利用Euler method计算本题极为有效,运用迭代的方法对_v_进行计算
 
 ### 代码
 ```python
@@ -24,3 +24,4 @@ plt.title("Velocity-time Figure")
 ```
 
 ### 运行结果
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/QQ%E5%9B%BE%E7%89%8720171013222049.png)
