@@ -1,4 +1,4 @@
-## 作业2.6
+a## 作业2.6
 ### 利用Euler method计算本题极为有效,运用迭代的方法对_v_ _t_进行计算
 
 ### 代码
@@ -22,3 +22,5 @@ plt.xlabel("time")
 plt.ylabel("velocity")      
 plt.title("Velocity-time Figure")
 ```
+
+### 运行结果
