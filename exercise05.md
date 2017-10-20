@@ -21,52 +21,68 @@
   <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=\frac{B_{2}}{m}=0.0039&plus;\frac{0.0058}{1&plus;exp[(v-v_{d})/\Delta&space;]}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{B_{2}}{m}=0.0039&plus;\frac{0.0058}{1&plus;exp[(v-v_{d})/\Delta&space;]}" title="\frac{B_{2}}{m}=0.0039+\frac{0.0058}{1+exp[(v-v_{d})/\Delta ]}" /></a>
 
 <div align=left>
-其中vd=35m/s，\Delta=5
 
-## 代码实现
-输入任意初速，角度，自旋角速度，出射高度
+## 代码
 ```python
-y=float(input("请输入初始高度："))
-angel=float(input("请输入初射角度："))
-w=float(input("请输入自旋角速度："))
-v=float(input("请输入初始速度："))
-```
-程序主循环为
-```python
-  while y>=0:
-    v=py.sqrt(vx**2+vy**2+vz**2)
-    vz=vz+S*vx*w*t
-    vx=vx-(0.0039+0.0058/(1+py.exp(v-35/5)))*v*vx*t
-    vy=vy-9.8*t
-    x=x+vx*t
-    y=y+vy*t
-    z=z+vz*t
-    xlist.append(x)
-    ylist.append(y)
-    zlist.append(z)
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+H=float(input("please input the height of the pitcher:"))
+V0=float(input("please input the initial speed of baseballs:"))
+An=float(input("please input the initial angle of the baseball:"))
+An=(An/180)*np.pi
+Vx=(V0)*math.cos(An)
+Vy=(V0)*math.sin(An)
+w=float(input("please input the vertical rotation speed:"))
+Vz=0
+x=0
+y=H
+z=0
+X_list=[x]
+Y_list=[y]
+Z_list=[z]
+dt=float(0.01)
+x_end=200
+n=0
+while y>=0 and x<x_end :
+    V=np.sqrt(Vx**2+Vy**2+Vz**2)
+    x=x+Vx*dt
+    y=y+Vy*dt
+    z=z+Vz*dt
+    Vz=Vz+0.00041*Vx*w*dt
+    Vx=Vx-(0.0039+0.0058/(1+np.exp((V-35)/5)))*V*Vx*dt
+    Vy=Vy-9.8*dt
+    X_list.append(x)
+    Y_list.append(y)
+    Z_list.append(z)
     n=n+1
-```
-  为了得出棒球在y=0临界点的z方向偏转量，由上一节讨论炮弹落点时的代码，感谢刘肇宁同学的帮助
-  ```python
-  if y<0:
-    r=ylist[n-1]/(ylist[n-1]-ylist[n])
-    xlist[n]=xlist[n-1]+(xlist[n]-xlist[n-1])*r
-    ylist[n]=0
-    zlist[n]=zlist[n-1]+(zlist[n]-zlist[n-1])*r
-```
-  
-  或者,在x=60feet（18.288m）home plate临界点的z方向偏转量
-  ```python
-  if x>=xend:
-    r=(xend-xlist[n-1])/(xlist[n-1]-xlist[n])
-    ylist[n]=ylist[n-1]-(ylist[n-1]-ylist[n])*r
-    zlist[n]=zlist[n-1]+(zlist[n]-zlist[n-1])*r
-    xlist[n]=xend
+if y<0:
+    r=Y_list[n-1]/(Y_list[n-1]-Y_list[n])
+    X_list[n]=X_list[n-1]+(X_list[n]-X_list[n-1])*r
+    Y_list[n]=0
+    Z_list[n]=Z_list[n-1]+(Z_list[n]-Z_list[n-1])*r
+if x>=x_end:
+    r=(x_end-X_list[n-1])/(X_list[n-1]-X_list[n])
+    Y_list[n]=Y_list[n-1]-(Y_list[n-1]-Y_list[n])*r
+    Z_list[n]=Z_list[n-1]+(Z_list[n]-Z_list[n-1])*r
+    X_list[n]=x_end
+figure=plt.figure()
+ax=figure.add_subplot(111,projection='3d')
+ax.plot(X_list,Z_list,Y_list)
+plt.show()    
+plt.plot(X_list,Y_list,label="vertical deflection")
+plt.xlabel("X/m")
+plt.ylabel("Y or Z/m")
+plt.title("Curve Ball Trajectory")
+plt.plot(X_list,Z_list,label="horizontal deflection")
+plt.legend(loc="upper left")
+plt.show()
+print(Z_list[n])
 ```
 
-最后，绘出棒球轨迹在x-y平面上的投影以及z方向偏转与x的关系图，也可以绘制x-y-z三维轨迹曲线
+最后，绘出x-y-z三维轨迹曲线
    
-## 结果分析
+## 结果
 
 ### 若考虑棒球落地（y=0）
 棒球初速30m/s，初始角度5°，自转角速度2000rpm，初始高度1m
