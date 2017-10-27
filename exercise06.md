@@ -59,3 +59,12 @@ def func(F):
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/4.png)
 <div align=left>
 可见与书中图片符合的很好
+
+# 控制变量
+## 改变驱动力的大小
+<div align=center>
+
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/%E5%9B%BE2.png)
+<div align=left>
+
+从上图可以看出，改变外力的初始大小，尽管改变很小，但之后，运动情况出现了改变。
