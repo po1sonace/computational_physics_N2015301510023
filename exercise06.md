@@ -10,6 +10,7 @@ Write a program to caiculate and compare the behavior of two,nearly identical pe
 <div align=center>
 
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/12123.png)
+
 ## 代码
 ```python
 import math
@@ -48,6 +49,7 @@ def func(F):
 ```
 ## 结果分析
 将摆从0，2rad的位置释放，下为模拟的结果
+
 <div align=center>
 
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/%E5%9B%BE1.png)
