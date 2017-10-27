@@ -8,3 +8,5 @@
 [exercise04:Euler Method](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise04.md)
 
 [exercise05](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise05.md)
+
+[exercise06]()
