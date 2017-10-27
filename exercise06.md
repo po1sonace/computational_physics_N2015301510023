@@ -10,6 +10,7 @@ Write a program to caiculate and compare the behavior of two,nearly identical pe
 <div align=center>
 
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/12123.png)
+<div align=left>
 
 ## 代码
 ```python
