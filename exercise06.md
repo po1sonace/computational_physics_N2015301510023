@@ -57,5 +57,5 @@ def func(F):
 <div align=center>
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/4.png)
-
+<div align=left>
 可见与书中图片符合的很好
