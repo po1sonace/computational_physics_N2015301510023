@@ -45,5 +45,7 @@ def func(F):
 将摆从0，2rad的位置释放，下为模拟的结果
 
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/%E5%9B%BE1.png)
+<div align=center>
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/4.png)
+
