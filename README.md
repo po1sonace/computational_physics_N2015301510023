@@ -11,4 +11,4 @@
 
 [exercise06](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise06.md)
 
-[exercise07](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise06.md)
+[exercise07](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise07.md)
