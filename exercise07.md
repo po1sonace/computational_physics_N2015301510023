@@ -1,6 +1,8 @@
-# Exercise 08 Problem 3.20
+# Exercise 07 P3.20
 ## 问题
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/%E6%8D%95%E8%8E%B7.PNG)
+## 目的
+研究一个受周期性驱动力并有耗散现象的摆，画出Bigurcation图像，分析其周期倍增达到混沌的规律。
 ## 思路
 <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=\omega&space;_{i&plus;1}=\omega&space;_{i}-\left&space;[&space;\frac{g}{l}sin(\theta&space;)&plus;q\cdot&space;\omega&space;_{i}-F_{D}sin(\Omega_{D}t_{i}&space;)\right&space;]\Delta&space;t" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\omega&space;_{i&plus;1}=\omega&space;_{i}-\left&space;[&space;\frac{g}{l}sin(\theta&space;)&plus;q\cdot&space;\omega&space;_{i}-F_{D}sin(\Omega_{D}t_{i}&space;)\right&space;]\Delta&space;t" title="\omega _{i+1}=\omega _{i}-\left [ \frac{g}{l}sin(\theta )+q\cdot \omega _{i}-F_{D}sin(\Omega_{D}t_{i} )\right ]\Delta t" /></a>
 
@@ -75,13 +77,13 @@ while F_D<=1.478:
    x,y=points(F_D,begintime)
 ```
 ## 结果分析
-驱动力大小F_D在1.35至1.5之间的bifurcation diagram如下所示
+驱动力大小F_D在1.35至1.5之间的Bigurcation图像如下所示
 <div align=center>
 
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/result.png)
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/%E5%9B%BE71.jpg)
 <div align=left>
-从上图可以看出，F_D在1.5左右，θ的值出现了大幅度波动，归于“混沌”状态。
-由于F_D在1.48左右数据点较密，无法分辨，所以在此处放大的bifurcation diagram如下
+从上图可以看出，F_D在1.5左右，θ的值出现了周期倍增，最后归于“混沌”状态。
+由于F_D在1.48左右不清晰，所以在此处放大的Bigurcation图像如下
 <div align=center>
 
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/result2.png)
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/%E5%9B%BE72.jpg)
