@@ -74,3 +74,14 @@ while F_D<=1.478:
 
    x,y=points(F_D,begintime)
 ```
+## 结果分析
+驱动力大小F_D在1.35至1.5之间的bifurcation diagram如下所示
+<div align=center>
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/result.png)
+<div align=left>
+从上图可以看出，F_D在1.5左右，θ的值出现了大幅度波动，归于“混沌”状态。
+由于F_D在1.48左右数据点较密，无法分辨，所以在此处放大的bifurcation diagram如下
+<div align=center>
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/result2.png)
