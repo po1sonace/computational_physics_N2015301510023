@@ -30,5 +30,6 @@
 <div align=center>
 
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/1.3.png)
+
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/1.4.png)
 
