@@ -7,9 +7,13 @@
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/1.png)
 
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/2.png)
+
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/3.png)
+
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/4.png)
+
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/5.png)
+
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/6.png)
 ## 结果分析
 * Circular stadium<br>
