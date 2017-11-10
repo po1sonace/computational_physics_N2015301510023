@@ -18,7 +18,7 @@
 ## 结果分析
 * Circular stadium<br>
 ![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/4.png)<br>
-![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/5.png)
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/1.1.png)
 
 * Stadium billiard<br>
 
