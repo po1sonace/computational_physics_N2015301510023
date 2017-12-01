@@ -15,7 +15,7 @@
 三者质量为标准状态时，可以得到如下运动轨迹
 <div align=center>
 
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2010/1.png)
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/T1.png)
 <div align=left>
 可见此时太阳保持不动，木星与地球绕太阳做圆周运动，三者保持稳定运动状态。这是由于太阳的质量相对其余二者而言相当大，木星对地球的影响可以忽略。
 
@@ -23,19 +23,19 @@
 可以看到地球的运动开始受到影响，太阳也不再固定不动，但三者仍能稳定运动。
 <div align=center>
  
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2010/2.png)
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/T2.png)
 <div align=left>
 
 ### 木星质量增大一百倍
 此时地球运动变得复杂，太阳开始做圆周运动。
 <div align=center>
  
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2010/3.png)
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/T3.png)
 <div align=left>
 
 ## 木星质量增大一千倍
 由于此时木星质量与太阳质量已经相当，引力无法束缚住太阳和木星，它们相互远离。由于地球一开始与太阳距离更近，在之后地球跟随着太阳运动。
 <div align=center>
  
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2010/4.png)
+![](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/T4.png)
 
