@@ -16,3 +16,5 @@
 [exercise08](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise08.md)
 
 [exercise09](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise09.md)
+
+[midterm](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/midterm.gif)
