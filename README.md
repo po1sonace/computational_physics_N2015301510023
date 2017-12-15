@@ -19,4 +19,4 @@
 
 [midterm](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/midterm.gif)
 
-[exercise10](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise09.md)
+[exercise10](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise10.md)
