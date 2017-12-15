@@ -8,7 +8,7 @@
 <a href="http://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;^{2}y}{\partial&space;t^{2}}=c\frac{\partial&space;^{2}y}{\partial&space;x^{2}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{\partial&space;^{2}y}{\partial&space;t^{2}}=c\frac{\partial&space;^{2}y}{\partial&space;x^{2}}" title="\frac{\partial ^{2}y}{\partial t^{2}}=c\frac{\partial ^{2}y}{\partial x^{2}}" /></a>
   
 <div align=left>
-我们假设有如下扰动
+在本文中我只考虑一维弦上的波动。我们假设有如下扰动，y代表弦上各点相对于其平衡位置的位移，x代表各点在弦上的坐标，t代表时间，c代表波在弦上的传播速度。
 <div align=center>
 <a href="http://www.codecogs.com/eqnedit.php?latex=y_{0}(x)=exp[-k(x-x_{0})^{2}]" target="_blank"><img src="http://latex.codecogs.com/gif.latex?y_{0}(x)=exp[-k(x-x_{0})^{2}]" title="y_{0}(x)=exp[-k(x-x_{0})^{2}]" /></a>
 <div align=left>
