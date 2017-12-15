@@ -33,7 +33,7 @@
 ### position of disturbance1 = 0.3， position of disturbance2 = 0.6，amp2 = 1.2
 <div align=center>
 
-![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%20square.gif)
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%201.gif)
 <div align=left> 
 
 ## 结论
