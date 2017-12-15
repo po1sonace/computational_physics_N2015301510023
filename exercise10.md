@@ -10,6 +10,7 @@
 <div align=left>
 在本文中我只考虑一维弦上的波动。我们假设有如下扰动，y代表弦上各点相对于其平衡位置的位移，x代表各点在弦上的坐标，t代表时间，c代表波在弦上的传播速度。
 <div align=center>
+
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gauss.png)
 在弦上施加两个如上的扰动，并使用程序模拟他们的传播，并通过选取任意的扰动起始点以及任意的扰动波振幅，来证明波的传播是独立的。
 设定disturbance1的振幅为1
