@@ -20,3 +20,5 @@
 [midterm](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/midterm.gif)
 
 [exercise10](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/exercise10.md)
+
+[计算物理期末论文](https://github.com/po1sonace/computational_physics_N2015301510023/blob/master/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E6%9C%9F%E6%9C%AB%E8%AE%BA%E6%96%87.pdf)
